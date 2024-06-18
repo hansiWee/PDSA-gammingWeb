@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/homePage.html"
+        "destination": "/main_menu/homePage.html"
       }
     ]
   }
