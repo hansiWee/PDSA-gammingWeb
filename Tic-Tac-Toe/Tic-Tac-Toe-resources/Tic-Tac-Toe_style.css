@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    overflow: hidden;  
+    display: flex;        
+    justify-content: center;  
+    align-items: center;     
+    height: 100vh;       
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('2yqT.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 5px;
+}
+
+.cell {
+    width: 150px;  /* Adjusted size */
+    height: 150px; /* Adjusted size */
+    border: 1px solid black;
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 150px; /* Adjusted to match the new cell size */
+    background-color: rgba(117, 17, 92, 0.801);
+    transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+    background-color: rgba(212, 126, 194, 0.801);
+}
+.hidden {
+    display: none;
+}
+
+#message-box {
+    position: fixed;
+    width: 300px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(240, 235, 239);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+    font-size: 40px;
+}
+
+#close-button {
+    position: absolute;  
+    top: 8px;          
+    right: 8px;          
+    color: red;        
+    font-size: 20px;   
+    font-weight: bold;   
+    cursor: pointer;     
+}
+
+#close-button:hover {
+    color: darkred;      
+}
+
+#game-title {
+    position: absolute;       
+    top: 20px;               
+    left: 50%;                
+    transform: translateX(-50%); 
+    color: rgba(53, 3, 28, 0.904);             
+    font-size: 50px;         
+    font-weight: bold;        
+    z-index: 999; 
+}
+
+
+
+
+
+
+

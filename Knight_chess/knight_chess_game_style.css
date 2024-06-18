@@ -1,0 +1,88 @@
+table td{
+	border-style:solid; padding:30px;
+	background-repeat: no-repeat; background-size: 60px;
+}
+table{
+	float:left;
+	opacity: 0.9;
+}
+#game_Info{
+	box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+	float:right;
+	width:700px;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(36, 129, 235);
+	padding:10px;
+	background-color: rgb(63, 110, 182);
+	color:rgb(255, 255, 255);
+	font-family:Consolas;
+	font-size:17px;
+	opacity: 0.9;
+}
+#score{
+
+	box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+	float:right;
+	width:300px;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(42, 54, 165);
+	padding:10px;
+	background-color: white;
+	font-family:Courier New;
+	font-size:16px;
+	opacity: 0.9;
+}
+#result{
+	box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+	float:right;
+	width:700px;
+	border-style:solid;
+	border-width:2px;
+	border-color:rgb(42, 54, 165);
+	padding:20px;
+	background-color: white;
+	font-family:Courier New;
+	font-size:20px;
+	opacity: 0.9;
+}
+
+.gif{
+	
+	margin-top: 50px;
+	
+}
+
+body
+{
+	background-image: url(knight_chess_resources/knight_background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+.btnRestart{
+	margin-right: auto;
+	opacity: 0.9;
+	float:right;
+	font-size: 38px;
+	margin-top: 50px;
+	margin-right: 180px;
+	font-family:Courier New;
+	padding: 10px 60px;
+	background: #0f9cdd;
+	color: #fff;
+	border-radius: 40px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+	box-shadow: 0 2px 25px rgba(18, 2, 109, 0.5);
+	transition: box-shadow 0.25s;
+}
+
+.btn:active{
+	background: #120969;
+	box-shadow: 0 2px 25px rgba(24, 22, 23, 0.2);
+}

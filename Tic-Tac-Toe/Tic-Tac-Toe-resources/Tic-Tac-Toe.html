@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="Tic-Tac-Toe_style.css">
+</head>
+
+<body>
+    <div class="background"></div>
+    <div id="game-title">Tic Tac Toe</div>
+    
+    <div id="message-box" class="hidden">
+        <span id="message-text"></span>
+        <span id="close-button" onclick="closeMessage()">✖</span>
+</div>
+    <div id="board">
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+        <div class="cell" onclick="makeMove(this)"></div>
+    </div>
+
+    <div></div>
+
+    <script src="Tic-Tac-Toe_script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="HPStyle.css">
+    <title>PDSA Gaming</title>
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+   
+  
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+   
+   <header>
+   <a href="#" class="logo">PDSA Gaming</a>
+   
+  <ul class="navlist">
+    <li><a href="#top">Home</a></li> <!-- Optional: Will scroll to the top or to a specific section representing 'Home'. You need to have an element with id="top" for this to work. -->
+    <li><a href="Menu.html">Game Menu</a></li>
+    <li><a href="#sec">About Us</a></li>
+    <li><a href="#" id="loginLink">Log In</a></li> <!-- Added an id for the Log In link -->
+</ul>
+
+   
+   <div class= "bx bx-menu" id="menu-icon"></div>
+   
+   
+   </header>
+   
+   <section class="hero">
+	<div class="hero-text">
+	<h1>Game Store</h1>
+	<p>"Play Engaging and Educational Games!" </p>
+	
+	</div>
+   
+   <div class="hero-img"> 
+   <img src="super.png" alt="Image Description" width="400">
+   </div>
+   </section>
+   
+   <div class="sec" id="sec">
+   <h2><br><br>About Us</h2>
+   <p><br><br>"Welcome to our Games Board! <br><br><br><br><br><br> We're passionate about bringing you a collection of captivating and intellectually stimulating games. Our team of dedicated creators and developers have crafted these challenges to provide you with hours of fun and mental exercise. Whether you're a chess enthusiast, word wizard, strategic thinker, or just looking for a good time, our games offer something for everyone. Join us on this exciting journey, test your skills, and see if you can conquer our puzzles and leave your mark in our Hall of Fame. We're thrilled to have you here and hope you enjoy every moment of gaming with us!"</p>
+   </div>
+   
+
+   <!-- Login Modal -->
+<div id="loginModal" class="login-modal">
+    <div class="login-modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <input type="submit" value="Done">
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

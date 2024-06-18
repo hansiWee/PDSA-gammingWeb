@@ -1,0 +1,116 @@
+<html>
+	<head>
+	  <title>Knight Chess Game</title>
+	  <script src="knight_chess_game_script.js"></script>
+	  <link rel="stylesheet" href="knight_chess_game_style.css">
+	</head>
+
+	<body>
+		
+		<table style="border-style:solid;">
+			<tr>
+				<td id = "elem00" onclick="selectedPlace('elem00')" style="background-color: black;" ></td>
+				<td id = "elem01" onclick="selectedPlace('elem01')" style="background-color: white;"></td>
+				<td id = "elem02" onclick="selectedPlace('elem02')" style="background-color: black;" ></td>
+				<td id = "elem03" onclick="selectedPlace('elem03')" style="background-color: white;"></td>
+				<td id = "elem04" onclick="selectedPlace('elem04')" style="background-color: black;" ></td>
+				<td id = "elem05" onclick="selectedPlace('elem05')" style="background-color: white;"></td>
+				<td id = "elem06" onclick="selectedPlace('elem06')" style="background-color: black;" ></td>
+				<td id = "elem07" onclick="selectedPlace('elem07')" style="background-color: white;"></td>
+			</tr>
+			<tr>
+				<td id = "elem10" onclick="selectedPlace('elem10')" style="background-color: white;"></td>
+				<td id = "elem11" onclick="selectedPlace('elem11')" style="background-color: black;"></td>
+				<td id = "elem12" onclick="selectedPlace('elem12')" style="background-color: white;"></td>
+				<td id = "elem13" onclick="selectedPlace('elem13')" style="background-color: black;" ></td>
+				<td id = "elem14" onclick="selectedPlace('elem14')" style="background-color: white;"></td>
+				<td id = "elem15" onclick="selectedPlace('elem15')" style="background-color: black;" ></td>
+				<td id = "elem16" onclick="selectedPlace('elem16')" style="background-color: white;"></td>
+				<td id = "elem17" onclick="selectedPlace('elem17')" style="background-color: black;" ></td>
+			</tr>
+			<tr>
+				<td id = "elem20" onclick="selectedPlace('elem20')" style="background-color: black;" ></td>
+				<td id = "elem21" onclick="selectedPlace('elem21')" style="background-color: white;"></td>
+				<td id = "elem22" onclick="selectedPlace('elem22')" style="background-color: black;" ></td>
+				<td id = "elem23" onclick="selectedPlace('elem23')" style="background-color: white;"></td>
+				<td id = "elem24" onclick="selectedPlace('elem24')" style="background-color: black;" ></td>
+				<td id = "elem25" onclick="selectedPlace('elem25')" style="background-color: white;"></td>
+				<td id = "elem26" onclick="selectedPlace('elem26')" style="background-color: black;" ></td>
+				<td id = "elem27" onclick="selectedPlace('elem27')" style="background-color: white;"></td>
+			</tr>
+			<tr>
+				<td id = "elem30" onclick="selectedPlace('elem30')" style="background-color: white;"></td>
+				<td id = "elem31" onclick="selectedPlace('elem31')" style="background-color: black;"></td>
+				<td id = "elem32" onclick="selectedPlace('elem32')" style="background-color: white;"></td>
+				<td id = "elem33" onclick="selectedPlace('elem33')" style="background-color: black;" ></td>
+				<td id = "elem34" onclick="selectedPlace('elem34')" style="background-color: white;"></td>
+				<td id = "elem35" onclick="selectedPlace('elem35')" style="background-color: black;" ></td>
+				<td id = "elem36" onclick="selectedPlace('elem36')" style="background-color: white;"></td>
+				<td id = "elem37" onclick="selectedPlace('elem37')" style="background-color: black;" ></td>
+			</tr>
+			<tr>
+				<td id = "elem40" onclick="selectedPlace('elem40')" style="background-color: black;" ></td>
+				<td id = "elem41" onclick="selectedPlace('elem41')" style="background-color: white;"></td>
+				<td id = "elem42" onclick="selectedPlace('elem42')" style="background-color: black;" ></td>
+				<td id = "elem43" onclick="selectedPlace('elem43')" style="background-color: white;"></td>
+				<td id = "elem44" onclick="selectedPlace('elem44')" style="background-color: black;" ></td>
+				<td id = "elem45" onclick="selectedPlace('elem45')" style="background-color: white;"></td>
+				<td id = "elem46" onclick="selectedPlace('elem46')" style="background-color: black;" ></td>
+				<td id = "elem47" onclick="selectedPlace('elem47')" style="background-color: white;"></td>
+			</tr>
+			<tr>
+				<td id = "elem50" onclick="selectedPlace('elem50')"  style="background-color: white;"></td>
+				<td id = "elem51" onclick="selectedPlace('elem51')"  style="background-color: black;"></td>
+				<td id = "elem52" onclick="selectedPlace('elem52')"  style="background-color: white;"></td>
+				<td id = "elem53" onclick="selectedPlace('elem53')"  style="background-color: black;" ></td>
+				<td id = "elem54" onclick="selectedPlace('elem54')"  style="background-color: white;"></td>
+				<td id = "elem55" onclick="selectedPlace('elem55')"  style="background-color: black;" ></td>
+				<td id = "elem56" onclick="selectedPlace('elem56')"  style="background-color: white;"></td>
+				<td id = "elem57" onclick="selectedPlace('elem57')"  style="background-color: black;" ></td>
+			</tr>
+			<tr>              
+				<td id = "elem60" onclick="selectedPlace('elem60')" style="background-color: black;"></td>
+				<td id = "elem61" onclick="selectedPlace('elem61')" style="background-color: white;"></td>
+				<td id = "elem62" onclick="selectedPlace('elem62')" style="background-color: black;" ></td>
+				<td id = "elem63" onclick="selectedPlace('elem63')" style="background-color: white;"></td>
+				<td id = "elem64" onclick="selectedPlace('elem64')" style="background-color: black;" ></td>
+				<td id = "elem65" onclick="selectedPlace('elem65')" style="background-color: white;"></td>
+				<td id = "elem66" onclick="selectedPlace('elem66')" style="background-color: black;" ></td>
+				<td id = "elem67" onclick="selectedPlace('elem67')" style="background-color: white;"></td>
+			</tr>
+			<tr>
+				<td id = "elem70" onclick="selectedPlace('elem70')"  style="background-color: white;"></td>
+				<td id = "elem71" onclick="selectedPlace('elem71')"  style="background-color: black;"></td>
+				<td id = "elem72" onclick="selectedPlace('elem72')"  style="background-color: white;"></td>
+				<td id = "elem73" onclick="selectedPlace('elem73')"  style="background-color: black;" ></td>
+				<td id = "elem74" onclick="selectedPlace('elem74')"  style="background-color: white;"></td>
+				<td id = "elem75" onclick="selectedPlace('elem75')"  style="background-color: black;" ></td>
+				<td id = "elem76" onclick="selectedPlace('elem76')"  style="background-color: white;"></td>
+				<td id = "elem77" onclick="selectedPlace('elem77')"  style="background-color: black;" ></td>
+			</tr>
+		</table>
+		
+		<div class="restart">
+			<h4 id="score">Score: </h4>
+		<p id="game_Info"><b>Game Info:</b> The purpose of the game is to travel each individual Square on the Chessboard using only the Knight piece.
+		You are allowed to travel each square only once. The game is won only when you successful conquer each square on the chessboard.
+		If you run out of squares to travel, but failed to conquer the whole chessboard the game is over.
+		<br><br>
+		<b>Choose a square in order to begin.</b><br></br><br>
+
+
+
+		<b>YELLOW/BLUE : Indicates a previously visited square</b><br>
+
+		<b>RED/PINK : Indicates potential squares the knight can move to</b><br>
+
+		</p>
+		<h3 id="result"></h3>
+	
+			<input type="button" onclick="gameRestart()" value="Restart" class="btnRestart" ></input>
+			
+		</div>
+		
+	</body>
+
+</html>

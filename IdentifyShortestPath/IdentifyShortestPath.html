@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Anne to Travel Around Sri Lanka</title>
+    <link rel="stylesheet" href="IdentifyShortestPath.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <h1>Help Anne to Travel Around Sri Lanka</h1>
+
+        <div id="gameArea">
+            <div class="box">
+                <p>What would be the shortest path to visit</p>
+                <img id="startCityImg" width="150" height="150" alt="Start City">
+            </div>
+
+            <div class="content-area">
+                <div id="distanceTable"></div>
+                <img src="IdentifyShortestPathSource/videoplasty-4669-white-casual-woman-waving-stock-gifs.gif" alt="Description of GIF" class="side-gif">
+            </div>
+
+            <div id="answerSection"></div>
+            <button onclick="submitAnswers()">Submit</button>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="IdentifyShortestPath.js" defer></script>
+</body>
+
+</html>
